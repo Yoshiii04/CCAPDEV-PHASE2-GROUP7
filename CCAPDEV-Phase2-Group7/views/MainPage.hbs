@@ -1,0 +1,42 @@
+{{> header_nav}}
+        <div class="Page">
+        
+        <div class="Post">
+            {{#each posts}}
+            {{> post}}
+                <hr> 
+            {{/each}}
+
+
+        </div>
+        </div>
+       
+    
+        <script>
+            
+            function toggleUpvote(button, buttonid) {
+            const downvoteButton = document.getElementById(buttonid);
+
+            if (button.classList.contains('active')) {
+                button.classList.remove('active');
+            } else {
+                button.classList.add('active');
+                downvoteButton.classList.remove('active');
+            }
+        }
+
+        function toggleDownvote(button, buttonid) {
+            const upvoteButton = document.getElementById(buttonid);
+
+            if (button.classList.contains('active')) {
+                button.classList.remove('active');
+            } else {
+                button.classList.add('active');
+                upvoteButton.classList.remove('active');
+            }
+        }
+        
+        
+
+        </script>
+<!-- this can be added through-out the file -->

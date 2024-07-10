@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "668d519231952c6188b7d224"
+  },
+  "text": "Goodluck Bro",
+  "username": "hansu0419",
+  "postNum": "668cf9a7008e9c1c03e652e1",
+  "createdAt": "7/9/2024, 11:04:50 PM"
+},
+{
+  "_id": {
+    "$oid": "668d519f31952c6188b7d225"
+  },
+  "text": "I think it is possible",
+  "username": "hansu0419",
+  "postNum": "668cf9a7008e9c1c03e652e2",
+  "createdAt": "7/9/2024, 11:05:03 PM"
+},
+{
+  "_id": {
+    "$oid": "668d51b831952c6188b7d226"
+  },
+  "text": "I just sleep a lot HAHA",
+  "username": "Lonely_Banana",
+  "postNum": "668cf9a7008e9c1c03e652e1",
+  "createdAt": "7/9/2024, 11:05:28 PM"
+},
+{
+  "_id": {
+    "$oid": "668d51cb31952c6188b7d227"
+  },
+  "text": "Welcome to DLSU!",
+  "username": "AppleDeli1741",
+  "postNum": "668cf9a7008e9c1c03e652e1",
+  "createdAt": "7/9/2024, 11:05:47 PM"
+},
+{
+  "_id": {
+    "$oid": "668d51d331952c6188b7d228"
+  },
+  "text": "Don't feel too bad",
+  "username": "AppleDeli1741",
+  "postNum": "668cf9a7008e9c1c03e652e1",
+  "createdAt": "7/9/2024, 11:05:55 PM"
+},
+{
+  "_id": {
+    "$oid": "668d51f831952c6188b7d229"
+  },
+  "text": "live your life man!",
+  "username": "Reasonable_worry101",
+  "postNum": "668cf9a7008e9c1c03e652e1",
+  "createdAt": "7/9/2024, 11:06:32 PM"
+}]

@@ -1,0 +1,31 @@
+<nav> 
+    <div class="menu-left"> 
+        <form action="/main" method="GET"> <!-- link-->
+            <input type="image" src="/images/Logo.png" class="logo" alt="logo">
+        </form>
+    </div>
+    <form> 
+        <div class="search"> 
+            <input type="image" src="/images/search.png" class="search-image" alt="search">
+            <input class="search-input" type="search" placeholder="Search"> 
+        </div> 
+    </form>
+    <div class="create-post"> 
+        <form action="/addPostPage" method="GET"> <!-- link to add post -->
+            <input type="image" src="/images/plus.png" class="plus" alt="plus">
+                <a href ="/addPostPage" id="create-post-text">Create</a><!-- link to add post-->
+        </form>
+    </div> 
+    
+    <div class="profile">
+        <form action="/viewUserProfile" method="GET"> <!-- link-->
+            <input type="image" src="/images/user.png" alt="user">
+        </form>
+    </div>
+    
+    <div class="Logout">
+        <form action="/" method="GET"> <!-- link-->
+            <input type="image" src="/images/exit.png" alt="logout">
+        </form>
+    </div>
+</nav>

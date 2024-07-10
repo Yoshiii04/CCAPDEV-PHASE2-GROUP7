@@ -1,0 +1,51 @@
+{{> header_nav}}
+
+        <div class="UserPageFormat">
+            <div class="UserPost">
+				<h1>Edit Profile</h1>
+				<hr>
+                <div class="profilepic-area">
+					<div class="ProfilePicture"><img src="images/BlankProfilePic.png" /></div>
+					<div class="change-profilepic">
+						<div class="profilepic-label">Profile Picture: </div>
+						<form id="uploadForm">
+							<input type="file" id="fileinput" accept="image/*">
+						</form>
+						<button type="submit" name="upload">Upload</button>
+					</div>
+                </div>
+				
+				<div class="username-area">
+					<div class="username-label">Username: </div>
+					<div class="input-box">
+						<input name="name" type="text">
+					</div>
+				</div>
+				
+				<div class="bio-area">
+					<div class="bio-label">Bio: </div>
+					<div class="input-box">
+						<input name="bio" type="text">
+					</div>
+				</div>
+				
+				<div class="buttons">
+					<div class="button1">
+						<a class="button-link">
+							<button type="submit" class="save" onclick="myFunction()">Save</button>
+						</a>
+					</div>
+					<div class="button2">
+						<a href="/viewUser_Post" class="button-link">
+							<button type="submit" class="cancel">Cancel</button>
+						</a>
+					</div>
+				</div>
+            </div>
+        </div>
+
+<script>
+function myFunction() {
+	alert("This feature is still in progress!");
+}
+</script>

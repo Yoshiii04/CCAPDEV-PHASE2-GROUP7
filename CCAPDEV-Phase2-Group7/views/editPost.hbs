@@ -1,0 +1,42 @@
+{{> header_nav}}
+
+        <div class="UserPageFormat">
+            
+            <div class="CreatePost">
+               <div class="BigText">
+                Edit Post
+               </div>
+                <select id="options">
+                    <option value="option1" selected>Select a Community</option>
+                    <option value="option2">Student Life</option>
+                    <option value="option3">Technology</option>
+                    <option value="option4">Love</option>
+                </select>
+               <div class="ExtraInfoCont">
+                    <div class="OptionText">Text</div>
+                    <div class="OptionText">Images & Video</div>
+                    <div class="OptionText">Link</div>
+                    <div class="OptionText">Poll</div>
+               </div>
+               <textarea id="Title" name="Title" placeholder="Title"></textarea>
+               <textarea id="Body" name="Title" placeholder="Body"></textarea>
+               <div class="ExtraInfoCont">
+                     <a href="/viewUser_Post">
+						<div class="CancelButton">Cancel</div>
+					</a>
+                    <div class="DoneButton" onclick="myFunction()">
+                        Save
+                    </div>
+               </div>
+
+            </div>
+
+
+        </div>
+
+
+<script>
+function myFunction() {
+	alert("This feature is still in progress!");
+}
+</script>
